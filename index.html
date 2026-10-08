@@ -1,138 +1,278 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Meriber Celina Morales Cordero">
-    <title>Hojalatería Canoas Carmona Héctor | Nicoya</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Meriber Morales" />
+   <!-- Primary Meta Tags -->
+<title>Hojalatería Canoas Carmona Héctor | Nicoya</title>
+<meta name="title" content="Hojalatería Canoas Carmona Héctor | Nicoya" />
+<meta name="description" content="Somos especialistas en todo tipo de Hojalatería 100%. Fabricación e instalación de sistemas de drenaje pluvial con alta resistencia y acabados profesionales en Guanacaste." />
 
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://metatags.io/" />
+<meta property="og:title" content="Hojalatería Canoas Carmona Héctor | Nicoya" />
+<meta property="og:description" content="Somos especialistas en todo tipo de Hojalatería 100%. Fabricación e instalación de sistemas de drenaje pluvial con alta resistencia y acabados profesionales en Guanacaste." />
+<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+<!-- X (Twitter) -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://metatags.io/" />
+<meta property="twitter:title" content="Hojalatería Canoas Carmona Héctor | Nicoya" />
+<meta property="twitter:description" content="Somos especialistas en todo tipo de Hojalatería 100%. Fabricación e instalación de sistemas de drenaje pluvial con alta resistencia y acabados profesionales en Guanacaste." />
+<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
+    
+    <!-- Enlace al Favicon (Logo de la pestaña/barra del navegador) -->
+    <link rel="icon" type="image/webp" href="img/logo.webp" />
+
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <!-- Encabezado Fijo y Navegación Anclada -->
     <header>
-        <p class="brand">Hojalatería Canoas Carmona Héctor</p>
-        <p>Soluciones pluviales e industriales en Nicoya</p>
-        
+      <div class="nav-container">
+        <div class="brand-group">
+          <!-- LOGO VISIBLE EN LA BARRA -->
+          <img
+            src="img/logo.webp"
+            alt="Logo Hojalatería Canoas Carmona Héctor"
+            class="nav-logo"
+          />
+          <div class="brand-text">
+            <p class="brand">Hojalatería Canoas Carmona Héctor</p>
+            <p class="slogan">Soluciones pluviales e industriales en Nicoya</p>
+          </div>
+        </div>
         <nav aria-label="Navegación principal">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
 
     <!-- Contenido Principal One-Page -->
     <main>
+      <!-- SECCIÓN 1: INICIO / HERO (Único H1 de la página) -->
+      <section id="inicio" class="hero">
+        <!-- Imagen de fondo responsiva optimizada -->
+  <picture class="hero__bg">
+    <source media="(max-width: 767px)" srcset="./img/hero_canoas.jpeg" />
+    <source media="(max-width: 1024px)" srcset="./img/hero_canoas.jpeg" />
+    <img 
+      src="./img/hero_canoas.jpeg" 
+      alt="Trabajos de hojalatería y canoas en Nicoya" 
+      width="1920" 
+      height="1080" 
+      loading="eager"
+    />
+  </picture>
 
-        <!-- SECCIÓN 1: INICIO (Único H1 de la página) -->
-        <section id="inicio">
-            <h1>Somos especialistas en todo tipo de Hojalatería 100% fabricantes</h1>
-            <p>Fabricación e instalación de sistemas de drenaje pluvial con alta resistencia y acabados profesionales en Guanacaste.</p>
-            <a href="#contacto" class="btn-cotizar">Solicitar Cotización</a>
-        </section>
+  <!-- Filtro de contraste oscuro -->
+  <div class="hero__overlay"></div>
 
-        <!-- SECCIÓN 2: NOSOTROS -->
-        <section id="nosotros">
-            <h2>Sobre Nosotros</h2>
-            <p>En <strong>Hojalatería Canoas Carmona Héctor</strong> brindamos soluciones en hojalatería residencial y comercial. Nos caracterizamos por la calidad en el manejo de láminas galvanizadas, esmaltadas, aluminio, acero, cobre y la atención personalizada.</p>
-            
-            <aside>
-                <h3>Compromiso de Calidad</h3>
-                <p>Uso de materiales duraderos diseñados para resistir el clima tropical y proteger la estructura de su propiedad.</p>
-            </aside>
-        </section>
+  <!-- Zona Segura / Contenido Principal -->
+   <div class="hero__content">
+        <h1>
+          Somos especialistas en todo tipo de Hojalatería 100% fabricantes
+        </h1>
+        <p>
+          Fabricación e instalación de sistemas de drenaje pluvial con alta
+          resistencia y acabados profesionales en Guanacaste.
+        </p>
+        <a href="#contacto" class="btn-cotizar">Solicitar Cotización</a>
+        </div>
+      </section>
 
-        <!-- SECCIÓN 3: SERVICIOS -->
-        <section id="servicios">
-            <h2>Nuestros Servicios</h2>
-            
-            <article class="producto-card">
-                <h3>Fabricación e Instalación de Canoas</h3>
-                <p>Diseño e instalación a medida en material galvanizado, esmaltado o aluminio, calibre 22 y 26 para techos residenciales e industriales.</p>
-                <span class="badge">Servicio Principal</span>
-            </article>
+      <!-- SECCIÓN 2: NOSOTROS -->
+      <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>
+          En <strong>Hojalatería Canoas Carmona Héctor</strong> brindamos
+          soluciones en hojalatería residencial y comercial. Nos caracterizamos
+          por la calidad en el manejo de láminas galvanizadas, esmaltadas,
+          aluminio, acero, cobre y la atención personalizada.
+        </p>
 
-            <article class="producto-card">
-                <h3>Botaguas de pared, tapichel y caballito</h3>
-                <p>Diseño e instalación a medida en material galvanizado, esmaltado o aluminio, calibre 22 y 26 para techos residenciales e industriales.</p>
-                <span class="badge">Servicio Principal</span>
-            </article>
+        <aside>
+          <h3>Compromiso de Calidad</h3>
+          <p>
+            Uso de materiales duraderos diseñados para resistir el clima
+            tropical y proteger la estructura de su propiedad.
+          </p>
+        </aside>
+      </section>
 
-            <article class="producto-card">
-                <h3>Cumbreras</h3>
-                <p>Diseño e instalación a medida en material galvanizado, esmaltado o aluminio, calibre 22 y 26 para techos residenciales e industriales.</p>
-                <span class="badge">Servicio Principal</span>
-            </article>
+      <!-- SECCIÓN 3: SERVICIOS -->
+      <section id="servicios">
+        <h2>Nuestros Servicios</h2>
 
-            <article class="producto-card">
-                <h3>Bajantes y Accesorios Pluviales</h3>
-                <p>Conducción eficiente de agua de lluvia mediante bajantes cuadrados o redondos con soportes reforzados.</p>
-                <span class="badge">Disponible</span>
-            </article>
+        <div class="servicios-grid">
+          <article class="producto-card">
+            <div class="producto-info">
+              <h3>Fabricación e Instalación de Canoas</h3>
+              <p>
+                Diseño e instalación a medida en material galvanizado, esmaltado
+                o aluminio, calibre 22 y 26 para techos residenciales e
+                industriales.
+              </p>
+              <span class="badge">Servicio Principal</span>
+            </div>
+          </article>
 
-            <article class="producto-card">
-                <h3>Techos a la medida</h3>
-                <p>A gusto y color del cliente.</p>
-                <span class="badge">Disponible</span>
-            </article>
+          <article class="producto-card">
+            <div class="producto-info">
+              <h3>Botaguas de pared, tapichel y caballito</h3>
+              <p>
+                Diseño e instalación a medida en material galvanizado, esmaltado
+                o aluminio, calibre 22 y 26 para techos residenciales e
+                industriales.
+              </p>
+              <span class="badge">Servicio Principal</span>
+            </div>
+          </article>
 
-            <article class="producto-card">
-                <h3>Mantenimiento y Reparaciones</h3>
-                <p>Limpieza, sellado de fugas y sustitución de tramos deteriorados en sistemas de canoas existentes. Nos caracterizamos por la calidad en el servicio y la satisfacción del cliente con trabajos garantizados por nuestra empresa de hasta 5 años.</p>
-                <span class="badge">Servicio Técnico</span>
-            </article>
-        </section>
+          <article class="producto-card">
+            <div class="producto-info">
+              <h3>Cumbreras</h3>
+              <p>
+                Diseño e instalación a medida en material galvanizado, esmaltado
+                o aluminio, calibre 22 y 26 para techos residenciales e
+                industriales.
+              </p>
+              <span class="badge">Servicio Principal</span>
+            </div>
+          </article>
 
-        <!-- SECCIÓN 4: CONTACTO -->
-        <section id="contacto">
-            <h2>Contáctenos</h2>
-            
-            <form action="#" method="post">
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+          <article class="producto-card">
+            <div class="producto-info">
+              <h3>Bajantes y Accesorios Pluviales</h3>
+              <p>
+                Conducción eficiente de agua de lluvia mediante bajantes
+                cuadrados o redondos con soportes reforzados.
+              </p>
+              <span class="badge">Disponible</span>
+            </div>
+          </article>
 
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" required placeholder="Ej. 8888-8888">
+          <article class="producto-card">
+            <div class="producto-info">
+              <h3>Techos a la medida</h3>
+              <p>
+                A gusto y color del cliente. Con medida de cada proyecto para
+                una mejor calidad garantizada en metalco esmaltado calibre #26
+              </p>
+              <span class="badge">Disponible</span>
+            </div>
+          </article>
 
-                <label for="mensaje">Detalle de su proyecto:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escriba aquí los detalles de la cotización..."></textarea>
+          <article class="producto-card">
+            <div class="producto-info">
+              <h3>Mantenimiento y Reparaciones</h3>
+              <p>
+                Limpieza, sellado de fugas y sustitución de tramos deteriorados
+                en sistemas de canoas existentes. Nos caracterizamos por la
+                calidad en el servicio y la satisfacción del cliente con
+                trabajos garantizados por nuestra empresa de hasta 5 años.
+              </p>
+              <span class="badge">Servicio Técnico</span>
+            </div>
+          </article>
+        </div>
+      </section>
 
-                <button type="submit" class="btn-cotizar">Enviar Mensaje</button>
-            </form>
+      <!-- SECCIÓN 4: CONTACTO -->
+      <section id="contacto">
+        <h2>Contáctenos</h2>
 
-            <aside>
-                <h3>Ubicación, Horario y Redes</h3>
-                <p><strong>Ubicación:</strong> Nicoya, Guanacaste, Costa Rica.</p>
-                <p>Nos trasladamos a su ubicación para evaluar el proyecto y proporcionar una cotización detallada.</p>
-                <p><strong>Horario:</strong> Lunes a Viernes de 7:00 AM a 5:00 PM.</p>
+        <form action="#" method="post">
+          <label for="nombre">Nombre completo:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            placeholder="Ej. Juan Pérez"
+          />
 
-                <div class="contacto-directo">
-                    <p><strong>WhatsApp Directo:</strong></p>
-                    <a href="https://wa.me/50688214137" target="_blank" rel="noopener" class="btn-whatsapp">
-                        📱 Escribir por WhatsApp (8821-4137)
-                    </a>
-                </div>
+          <label for="telefono">Teléfono:</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            required
+            placeholder="Ej. 8888-8888"
+          />
 
-                <div class="redes-sociales">
-                    <p><strong>Síganos en redes sociales:</strong></p>
-                    <div class="redes-links">
-                        <a href="#" target="_blank" rel="noopener">Facebook</a>
-                        <a href="#" target="_blank" rel="noopener">Instagram</a>
-                    </div>
-                </div>
-            </aside>
-        </section>
+          <label for="mensaje">Detalle de su proyecto:</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            required
+            placeholder="Escriba aquí los detalles de la cotización..."
+          ></textarea>
 
+          <button type="submit" class="btn-cotizar">Enviar Mensaje</button>
+        </form>
+
+        <aside>
+          <h3>Ubicación, Horario y Redes</h3>
+          <p><strong>Ubicación:</strong> Nicoya, Guanacaste, Costa Rica.</p>
+          <p>
+            Nos trasladamos a su ubicación para evaluar el proyecto y
+            proporcionar una cotización detallada.
+          </p>
+          <p><strong>Horario:</strong> Lunes a Viernes de 7:00 AM a 5:00 PM.</p>
+
+          <p> <strong>Correo electrónico:</strong> <a href="mailto:canoascarmonahector@gmail.com"> canoascarmonahector@gmail.com </a> </p>
+
+          <div class="contacto-directo">
+            <p><strong>WhatsApp Directo:</strong></p>
+            <a
+              href="https://wa.me/50688214137"
+              target="_blank"
+              rel="noopener"
+              class="btn-whatsapp"
+            >
+              📱 Escribir por WhatsApp (8821-4137)
+            </a>
+          </div>
+
+          <div class="redes-sociales">
+            <p><strong>Síganos en redes sociales:</strong></p>
+            <div class="redes-links">
+              <a href="#" target="_blank" rel="noopener">Facebook</a>
+              <a href="#" target="_blank" rel="noopener">Instagram</a>
+            </div>
+          </div>
+        </aside>
+      </section>
     </main>
 
     <!-- Pie de Página -->
     <footer>
-    <p>&copy; 2026 Hojalatería Canoas Carmona Héctor. Todos los derechos reservados.</p>
-    <p class="creditos-web">Diseño y Desarrollo Web por Meriber Morales</p>
-</footer>
-
-</body>
+      <p>
+        &copy; 2026 Hojalatería Canoas Carmona Héctor. Todos los derechos
+        reservados.
+      </p>
+      <p class="creditos-web">Diseño y Desarrollo Web por Meriber Morales</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
